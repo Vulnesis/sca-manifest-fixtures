@@ -1,5 +1,7 @@
 # sca-manifest-fixtures
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnetix/sca-manifest-fixtures)
+
 > Minimal, multi-ecosystem project fixtures for testing [Vulnetix](https://vulnetix.com) CLI Software Composition Analysis (SCA) — manifest detection, dependency resolution, and transitive dependency enumeration across every supported package manager and build system.
 
 ---
