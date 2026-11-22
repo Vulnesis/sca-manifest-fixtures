@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This repository is a **test harness for the [Vulnetix](https://vulnetix.com) CLI's Software Composition Analysis (SCA) capabilities**.
+This repository is a **test harness for the [Vulnesis](https://vulnes.is) CLI's Software Composition Analysis (SCA) capabilities**.
 
 Each sub-directory contains a minimal, self-contained project that uses a specific package manager or build system manifest format. The goal is to verify that the `vulnetix scan` command can:
 
@@ -91,11 +91,11 @@ All commands are driven by [`just`](https://just.systems/). Install it with `car
 
 | Command | What it does |
 |---|---|
-| `just detect-all` | Fast check — verifies every repo's manifest is **detected** by Vulnetix (no full resolution). |
+| `just detect-all` | Fast check — verifies every repo's manifest is **detected** by Vulnesis (no full resolution). |
 | `just check-all` | Runs a full scan on every repo and reports detection + scanning success with a summary. |
 | `just scan-all` | Full scan on all repos; validates ① manifest detected ② direct dep count matches expected ③ transitive deps > direct count. |
-| `just scan-supported` | Like `scan-all` but skips repos Vulnetix cannot yet resolve — much faster for CI. |
-| `just list-scannable` | Prints repos where Vulnetix successfully reaches the "Analysing" phase. |
+| `just scan-supported` | Like `scan-all` but skips repos Vulnesis cannot yet resolve — much faster for CI. |
+| `just list-scannable` | Prints repos where Vulnesis successfully reaches the "Analysing" phase. |
 | `just scan-repo <name>` | Scan a single repo with dep-count validation, e.g. `just scan-repo python-pipenv-lock`. |
 
 ### How scanning works
@@ -128,6 +128,6 @@ A repo is considered **passing** when the CLI output:
 
 ## Prerequisites
 
-- [`vulnetix`](https://vulnetix.com) CLI must be installed and on `$PATH`.
+- [`vulnetix`](https://vulnes.is) CLI must be installed and on `$PATH`.
 - [`just`](https://just.systems/) task runner.
 - `bash` 4+.

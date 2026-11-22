@@ -5,5 +5,5 @@ vendor/bundle/
 tmp/
 log/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

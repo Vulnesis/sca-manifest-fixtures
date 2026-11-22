@@ -8,5 +8,5 @@ cabal.sandbox.config
 *.chi
 *.chs.h
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

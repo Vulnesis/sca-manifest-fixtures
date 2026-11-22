@@ -2,5 +2,5 @@
 buck-out/
 .buckd/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

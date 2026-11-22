@@ -33,7 +33,7 @@ SUPPORTED_REPOS=(
     bun-workspace
 )
 
-printf "${BOLD}=== Vulnetix Supported Repo Scan ===${NC}\n"
+printf "${BOLD}=== Vulnesis Supported Repo Scan ===${NC}\n"
 printf "%-35s %8s %8s %s\n" "REPO" "DIRECT" "SCANNED" "STATUS"
 printf '%*s\n' 83 ''
 

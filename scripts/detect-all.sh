@@ -7,7 +7,7 @@ failed=0
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-echo "=== Vulnetix Manifest Detection Check ==="
+echo "=== Vulnesis Manifest Detection Check ==="
 echo ""
 
 for dir in "$SCRIPT_DIR"/../*/; do

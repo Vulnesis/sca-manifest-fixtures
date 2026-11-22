@@ -14,5 +14,5 @@ build/
 *.dSYM.zip
 *.dSYM
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

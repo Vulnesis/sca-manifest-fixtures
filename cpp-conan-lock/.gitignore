@@ -22,5 +22,5 @@ Makefile
 *.out
 *.d
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

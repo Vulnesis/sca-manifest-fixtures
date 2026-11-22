@@ -2,5 +2,5 @@
 bazel-*/
 .bazelrc.user
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

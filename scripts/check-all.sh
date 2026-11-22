@@ -9,7 +9,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 # shellcheck disable=SC1091
 source "$SCRIPT_DIR/expected-counts.sh"
 
-echo "=== Vulnetix Manifest Detection Report ==="
+echo "=== Vulnesis Manifest Detection Report ==="
 echo ""
 
 for dir in "$SCRIPT_DIR"/../*/; do

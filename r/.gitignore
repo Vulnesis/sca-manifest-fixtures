@@ -7,5 +7,5 @@
 *.Rout
 .Renviron
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

@@ -1,4 +1,4 @@
-# Vulnetix manifest detection test harness
+# Vulnesis manifest detection test harness
 
 # Scan a single repo with dep count validation (expects entry in scripts/expected-counts.sh)
 #   just scan-repo python-pipenv-lock

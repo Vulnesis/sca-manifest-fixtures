@@ -13,5 +13,5 @@ paket-files/
 .paket/bootstrapper
 .paket/paket.exe
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

@@ -15,5 +15,5 @@ build/
 # Pipenv
 .venv/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

@@ -6,5 +6,5 @@ ebin/
 *.beam
 erl_crash.dump
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

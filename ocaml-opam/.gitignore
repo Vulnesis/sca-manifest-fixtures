@@ -9,5 +9,5 @@ _build/
 # Dune
 _opam/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

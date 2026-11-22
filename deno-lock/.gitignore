@@ -6,5 +6,5 @@ node_modules/
 dist/
 *.js.map
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

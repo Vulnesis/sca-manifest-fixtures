@@ -5,5 +5,5 @@ deps/
 *.ez
 erl_crash.dump
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

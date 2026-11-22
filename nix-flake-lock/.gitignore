@@ -3,5 +3,5 @@ result
 result-*
 .direnv/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

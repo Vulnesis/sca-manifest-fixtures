@@ -15,5 +15,5 @@ build/
 # uv
 .uv/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

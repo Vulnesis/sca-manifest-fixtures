@@ -11,5 +11,5 @@ buck-out/
 *.ear
 target/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

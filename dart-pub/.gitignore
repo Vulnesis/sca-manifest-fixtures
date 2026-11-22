@@ -10,5 +10,5 @@ doc/api/
 *.g.dart
 *.freezed.dart
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

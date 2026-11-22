@@ -12,5 +12,5 @@ dist/
 build/
 .eggs/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

@@ -15,5 +15,5 @@ build/
 # Poetry
 .poetry/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

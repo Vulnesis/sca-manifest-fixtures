@@ -8,5 +8,5 @@ dist-newstyle/
 *.cabal
 stack.yaml.lock
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

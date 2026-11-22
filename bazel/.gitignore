@@ -10,5 +10,5 @@ bazel-*
 *.out
 *.d
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

@@ -18,5 +18,5 @@ build/
 # Swift
 .build/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

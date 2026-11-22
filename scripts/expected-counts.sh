@@ -93,7 +93,7 @@ scanned_count() {
 
 # is_workspace_repo NAME: true for a monorepo fixture. Its members have no
 # lockfile beside them by design, so a "has no lockfile" note for one is a
-# regression (Vulnetix/cli#177), never the expected unresolved case.
+# regression (Vulnesis/cli#177), never the expected unresolved case.
 is_workspace_repo() {
     [[ "$1" == *-workspace ]]
 }

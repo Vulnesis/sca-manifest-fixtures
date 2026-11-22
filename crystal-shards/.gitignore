@@ -6,5 +6,5 @@ bin/
 # Crystal build artifacts
 *.dwarf
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

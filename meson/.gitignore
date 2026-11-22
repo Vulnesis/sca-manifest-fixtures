@@ -10,5 +10,5 @@ _build/
 *.out
 *.d
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

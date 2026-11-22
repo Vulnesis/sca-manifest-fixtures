@@ -8,5 +8,5 @@ packages/
 *.nupkg
 TestResults/
 
-# Vulnetix
+# Vulnesis
 .vulnetix/

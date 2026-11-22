@@ -23,7 +23,7 @@ YELLOW='\033[33m'
 BOLD='\033[1m'
 NC='\033[0m'
 
-printf "${BOLD}=== Vulnetix Full Scan Report ===${NC}\n"
+printf "${BOLD}=== Vulnesis Full Scan Report ===${NC}\n"
 printf "%-35s %8s %8s %s\n" "REPO" "DIRECT" "SCANNED" "STATUS"
 printf '%*s\n' 83 ''
 
