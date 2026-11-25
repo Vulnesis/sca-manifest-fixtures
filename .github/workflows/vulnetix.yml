@@ -14,7 +14,7 @@ permissions:
 jobs:
   secrets:
     name: Secrets
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -37,7 +37,7 @@ jobs:
 
   sca-bun:
     name: SCA bun
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -50,7 +50,7 @@ jobs:
 
   sca-bundler:
     name: SCA bundler
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -63,7 +63,7 @@ jobs:
 
   sca-cargo:
     name: SCA cargo
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -76,7 +76,7 @@ jobs:
 
   sca-cocoapods:
     name: SCA cocoapods
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -89,7 +89,7 @@ jobs:
 
   sca-composer:
     name: SCA composer
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -102,7 +102,7 @@ jobs:
 
   sca-go:
     name: SCA go
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -115,7 +115,7 @@ jobs:
 
   sca-gradle:
     name: SCA gradle
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -128,7 +128,7 @@ jobs:
 
   sca-hex:
     name: SCA hex
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -141,7 +141,7 @@ jobs:
 
   sca-maven:
     name: SCA maven
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -154,7 +154,7 @@ jobs:
 
   sca-npm:
     name: SCA npm
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -167,7 +167,7 @@ jobs:
 
   sca-nuget:
     name: SCA nuget
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -180,7 +180,7 @@ jobs:
 
   sca-pip:
     name: SCA pip
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -193,7 +193,7 @@ jobs:
 
   sca-pipenv:
     name: SCA pipenv
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -206,7 +206,7 @@ jobs:
 
   sca-pnpm:
     name: SCA pnpm
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -219,7 +219,7 @@ jobs:
 
   sca-poetry:
     name: SCA poetry
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -232,7 +232,7 @@ jobs:
 
   sca-pub:
     name: SCA pub
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -245,7 +245,7 @@ jobs:
 
   sca-swift:
     name: SCA swift
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -258,7 +258,7 @@ jobs:
 
   sca-uv:
     name: SCA uv
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -271,7 +271,7 @@ jobs:
 
   sca-yarn:
     name: SCA yarn
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -284,7 +284,7 @@ jobs:
 
   iac:
     name: IaC
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -305,7 +305,7 @@ jobs:
 
   containers:
     name: Containers
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -325,7 +325,7 @@ jobs:
 
   license:
     name: License
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -338,7 +338,7 @@ jobs:
 
   cbom:
     name: CBOM
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -351,7 +351,7 @@ jobs:
 
   aibom:
     name: AIBOM
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -367,7 +367,7 @@ jobs:
 
   analyze:
     name: Analyze
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     permissions:
       contents: read
       issues: read
@@ -386,7 +386,7 @@ jobs:
 
   sbom:
     name: SBOM
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v7.0.1
@@ -399,7 +399,7 @@ jobs:
 
   publish:
     name: Publish
-    runs-on: [self-hosted, Linux, X64, vulnetix-local]
+    runs-on: [self-hosted, Linux, X64, vulnesis-cf]
     if: ${{ !cancelled() }}
     needs: [secrets, sca-bun, sca-bundler, sca-cargo, sca-cocoapods, sca-composer, sca-go, sca-gradle, sca-hex, sca-maven, sca-npm, sca-nuget, sca-pip, sca-pipenv, sca-pnpm, sca-poetry, sca-pub, sca-swift, sca-uv, sca-yarn, iac, containers, license, cbom, aibom, analyze, sbom]
     permissions:
